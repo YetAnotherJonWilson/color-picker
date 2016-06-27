@@ -14,22 +14,26 @@
 
 $('document').ready (function() {
 
-
+// creates for divs with class "box" and also an additional number class for each box
 $('.box-container').append('<div class = "box one"></div>\n' +
                           '<div class = "box two"></div>\n' +
                           '<div class = "box three"></div>\n' +
                           '<div class = "box four"></div>');
 
-
+// If the user clicks box one, which is red, they alerted that this is wrong and to try again
 $('body').on('click', '.one', function() {
   alert('Nope, not RED! Try again!'); });
 
+// If the user clicks box two, which is blue, they alerted that this is wrong and to try again
 $('body').on('click', '.two', function() {
   alert('Nope, not BLUE! Try again!'); });
 
+// If the user clicks box three, which is green, they alerted that this is wrong and to try again
 $('body').on('click', '.three', function() {
   alert('Nope, not GREEN! Try again!'); });
 
+// If the user clicks box four, which is yellow, they alerted that this is correct
+// and they can click again to keep playing
 $('body').on('click', '.four', function() {
   alert('Yes! YELLOW! Click again to keep playing . . .'); });
 

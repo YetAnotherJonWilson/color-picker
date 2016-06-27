@@ -6,10 +6,12 @@ h2 {
   color: green;
 }
 
+// contains all four boxes
 .box-container {
   height: 100px;
 }
 
+// This is the styling for all four boxes
 .box {
 height: 100px;
 width: 100px;
@@ -17,6 +19,7 @@ margin-left: 5px;
 display: inline-block;
 }
 
+// Below are the styles for each individual box
 .one {
   background-color: red;
 }
