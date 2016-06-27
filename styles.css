@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: green;
+}
+
+.box-container {
+  height: 100px;
+}
+
+.box {
+height: 100px;
+width: 100px;
+margin-left: 5px;
+display: inline-block;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: green;
+}
+
+.four {
+  background-color: yellow;
+}
